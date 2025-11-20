@@ -68,10 +68,10 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_HOST=database
       - POSTGRES_PORT=5432
-      - KHOJ_DJANGO_SECRET_KEY=secret
+      - KHOJ_DJANGO_SECRET_KEY=crFHJpk6H2VpxgbeHei0yKCPlIJLjFiNUPeiuq320DA
       - KHOJ_DEBUG=False
-      - KHOJ_ADMIN_EMAIL=username@example.com
-      - KHOJ_ADMIN_PASSWORD=password
+      - KHOJ_ADMIN_EMAIL=admin@localhost
+      - KHOJ_ADMIN_PASSWORD=74QsmciJ9NOZ-9O8_GKsZQ
       # Default URL of Terrarium, the default Python sandbox used by Khoj to run code. Its container is specified above
       - KHOJ_TERRARIUM_URL=http://sandbox:8080
       # Uncomment line below to have Khoj run code in remote E2B code sandbox instead of the self-hosted Terrarium sandbox above. Get your E2B API key from https://e2b.dev/.
